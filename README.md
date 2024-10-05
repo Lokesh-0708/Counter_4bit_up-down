@@ -42,6 +42,7 @@ Functional Simulation:
       
 	After this you can see the window like below 
 
+![Screenshot 2024-10-05 084858](https://github.com/user-attachments/assets/454dbdf7-fb32-4079-8703-a511f145cfa4)
 
 ## Fig 2: Invoke the Cadence Environment
 
@@ -74,12 +75,14 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
+![Screenshot 2024-10-05 153948](https://github.com/user-attachments/assets/f1f29f3a-e2b6-48c8-84b0-0e8f96dabbd1)
 
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![Screenshot 2024-10-05 094241](https://github.com/user-attachments/assets/8c5d640c-96da-4980-a735-f5ba3d33c313)
 
 ## Fig 4: cds.lib file Creation
 
@@ -122,6 +125,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot 2024-10-05 085051](https://github.com/user-attachments/assets/e83b0505-0122-4671-8ef1-eed5d0ebf0a1)
 
 ## Fig 7: Compiled database in worklib
 
@@ -163,10 +167,12 @@ It contains statements that map logical library names to their physical director
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-10-05 085051](https://github.com/user-attachments/assets/bda60d19-d8d9-4c7a-99f3-f90f956b7d3e)
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2024-10-05 085842](https://github.com/user-attachments/assets/184348c0-b44c-4cb4-bf7e-3760f45159bb)
 
 ## Fig 10: Simulation Waveform Window
 
-## Fig 11: Simulation Waveform Window
+
 
